@@ -1,2 +1,4 @@
-<h1>This is from the application.hbs template</h1>
-<p>Welcome to Ember</p>
+{{#link-to 'index' tagName='li'}}Home{{/link-to}}
+{{#link-to 'admin' tagName='li'}}Admin{{/link-to}}
+{{link-to 'Home' 'index'}} | {{link-to 'Admin' 'admin'}}
+{{outlet}}

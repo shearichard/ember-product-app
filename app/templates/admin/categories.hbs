@@ -1,0 +1,9 @@
+<h3>Categories Page</h3>
+{{input value=categoryName placeholder='Category Name'}}
+
+{{#if categoryName}}
+    <p>Category name: {{upperCaseCategoryName}}</p>
+{{else}}
+    <p>Please write something in the input box</p>
+{{/if}}
+<button disabled={{isDisabled}}>Save</button>
